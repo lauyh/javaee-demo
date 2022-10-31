@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="javaeerestapi:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>javaeerestapi</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="javaeerestapi-1.war">
+      <element id="artifact" artifact-name="javaeerestapi:war exploded" />
+    </root>
+  </artifact>
+</component>
